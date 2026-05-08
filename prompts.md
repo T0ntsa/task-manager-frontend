@@ -24,10 +24,28 @@ What does axion do? In task-manager-frontend folder, where exactly i put files y
     -> File tree
 
 ## 3.
+
+here is user and pass:
+POST http://localhost:5000/api/auth/login
+Content-Type: application/json
+
+<test credentials>
+
+Give me easy way to test this. ONLY ONE SOLUTION
+
+## 4.
+
+<full error text from inspect/network> 
+    4. Answer
+        -> npm install cors
+
+## 5.
 Next feature is to make it look much nicer. 
 Now tasks are in a table where each row is one element. 
 I want each element to be its own card. 
 Status and priority much smaller but keep the coloring, helps to identify urgency.
 Card title should be element.title on left, right side priority. 
 Next line description and other info. Bottom left status and bottom right duedate.
+
+
 
