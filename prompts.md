@@ -28,7 +28,9 @@ What does axion do? In task-manager-frontend folder, where exactly i put files y
 here is user and pass:
 
 POST http://localhost:5000/api/auth/login
+
 Content-Type: application/json
+
 
 -- test credentials --
 
@@ -37,6 +39,7 @@ Give me easy way to test this. ONLY ONE SOLUTION
 ## 4.
 
  -- full error text from inspect/network --
+
     4. Answer
         -> npm install cors
 
